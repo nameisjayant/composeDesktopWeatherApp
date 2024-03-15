@@ -1,10 +1,10 @@
-package network
+package data.network
 
 import io.ktor.client.*
 import io.ktor.client.engine.cio.*
 import io.ktor.client.features.json.*
 import io.ktor.client.request.*
-import weather_app.data.model.City
+import features.domain.model.City
 
 class ApiService {
 

@@ -1,6 +1,6 @@
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
-import weather_app.data.ui.CityViewModel
+import features.data.ui.viewmodel.CityViewModel
 
 class BaseApplication : KoinComponent {
 

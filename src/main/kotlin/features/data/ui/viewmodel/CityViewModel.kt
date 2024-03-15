@@ -1,11 +1,11 @@
-package weather_app.data.ui
+package features.data.ui.viewmodel
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import utils.WeatherResponse
-import weather_app.data.model.City
-import weather_app.data.repository.CityRepository
+import features.domain.model.City
+import data.repository.CityRepository
 
 class CityViewModel (
     private val cityRepository: CityRepository,
