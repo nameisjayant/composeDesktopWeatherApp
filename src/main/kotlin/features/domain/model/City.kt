@@ -1,8 +1,8 @@
-package weather_app.data.model
+package features.domain.model
 
 data class City(
     val name:String? = null,
-    val main:Main? = null,
+    val main: Main? = null,
     val visibility:String?=null,
     val weather:List<Weather>?=null
 )

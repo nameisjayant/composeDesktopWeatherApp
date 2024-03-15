@@ -1,9 +1,9 @@
-package weather_app.data.repository
+package data.repository
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import network.ApiService
-import weather_app.data.model.City
+import data.network.ApiService
+import features.domain.model.City
 
 class CityRepository(private val apiService: ApiService) {
 

@@ -2,10 +2,10 @@ package di
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
-import network.ApiService
+import data.network.ApiService
 import org.koin.dsl.module
-import weather_app.data.repository.CityRepository
-import weather_app.data.ui.CityViewModel
+import data.repository.CityRepository
+import features.data.ui.viewmodel.CityViewModel
 
 
 val appModule = module {
